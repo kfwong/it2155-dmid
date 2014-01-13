@@ -91,14 +91,31 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Intrigue</a></li>
+            <li class="dropdown">
+			  <a data-toggle="dropdown" href="#">Intrigue</a>
+			  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+			    <li><a href="story-multiple.html">Editor Picks</a></li>
+			    <li><a href="story-multiple.html">Recent Stories</a></li>
+			    <li><a href="story-multiple.html">What's Hot</a></li>
+			    <li><a href="submit-story.html">Submit Story</a></li>
+			  </ul>
+			</li>
             <li><a href="#">Supernatural</a></li>
             <li><a href="#">Places</a></li>
-            <li><a href="#">Perspective</a></li>
-            <li><a href="#">How To</a></li>
+            <li>
+            	<a data-toggle="dropdown" href="#">Traditions & Religions</a>
+				  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				    <li><a href="methodstowardoff(buddhism).html">Buddhism</a></li>
+				    <li><a href="methodstowardoff(hinduism).html">Hinduism</a></li>
+				    <li><a href="methodstowardoff(islam).html">Islam</a></li>
+				  </ul>
+			</li>
+            <li>
+            	<a href="gadgets.html">Gadgets & Tools</a>
+			  </li>
             <li><a href="#">Contact Us</a></li>
           </ul>
-          <div class="input-group" style="padding:10px;width:300px;float:right;">
+          <div class="input-group" style="padding:10px;width:200px;float:right;">
 			  <input type="text" class="form-control">
 			  <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
 		  	</div>
@@ -285,7 +302,91 @@
                 </div>
               </div>
             </div>
+
+   			<div class="col-sm-12 col-lg-4 col-md-12">
+              <div class="thumbnail">
+                <div class="caption" style="padding:0px;">
+                	<div style="padding:5px;">
+                  		<h4><span class="glyphicon glyphicon-fire" style="color:gray;"></span>&nbsp;<a href="gadgets.html">Gadgets & Tools</a></h4>
+                	</div>
+			        <table class="table table-condensed" style="margin-bottom:auto !important;">
+			          <tbody>
+			            <tr style="height:110px;">
+			              <td>
+			              	<img class="pull-left" src="Images/geiger_counter.jpg" style="width:80px !important; height:80px !important;">
+			              </td>
+			              <td>
+			              	<h6><strong><a href="gadgets.html">Geiger Counter</a></strong></h6>
+			              	<small>A Geiger-Muller counter, also called a Geiger counter, is a type of particle detector that measures ionizing radiation.</small>
+			              </td>
+			            </tr>
+			            <tr style="height:110px;">
+			              <td>
+			              	<img class="pull-left" src="Images/emf%20detector.jpg" style="width:80px !important; height:80px !important;">
+			              </td>
+			              <td>
+			              	<h6><strong><a href="gadgets.html">Electromagnetic Field (EMF) detectors</a></strong></h6>
+			              	<small>The EMF detector measures electromagnetic fields and is one of the first tools we use in a paranormal investigation.</small>
+			              </td>
+			            </tr>
+			            <tr style="height:110px;">
+			              <td>
+			              	<img class="pull-left" src="Images/Thermographic%20camera.jpg" style="width:80px !important; height:80px !important;">
+			              </td>
+			              <td>
+			              	<h6><strong><a href="gadgets.html">Thermographic camera</a></strong></h6>
+			              	<small>A thermographic camera or infrared camera is a device that forms an image using infrared radiation. </small>
+			              </td>
+			            </tr>
+			          </tbody>
+			        </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-4 col-md-12">
+              <div class="thumbnail">
+                <div class="caption" style="padding:0px;">
+                	<div style="padding:5px;">
+                  		<h4><span class="glyphicon glyphicon-fire" style="color:gray;"></span>&nbsp;<a href="gadgets.html">Traditions & Religions</a></h4>
+                	</div>
+			        <table class="table table-condensed" style="margin-bottom:auto !important;">
+			          <tbody>
+			            <tr style="height:110px;">
+			              <td>
+			              	<img class="pull-left" src="http://placehold.it/80x80" style="width:80px !important; height:80px !important;">
+			              </td>
+			              <td>
+			              	<h6><strong><a href="methodstowardoff(buddhism).html#">Buddhism</a></strong></h6>
+			              	<small>Buddhism ward off ghosts by chanting and sprinking holy water.</small>
+			              </td>
+			            </tr>
+			            <tr style="height:110px;">
+			              <td>
+			              	<img class="pull-left" src="Images/HinduismWardingOffSpirits.jpg" style="width:80px !important; height:80px !important;">
+			              </td>
+			              <td>
+			              	<h6><strong><a href="methodstowardoff(hinduism).html#">Hinduism</a></strong></h6>
+			              	<small>Hinduism has this calling for supernatural creature as "Bhoot". </small>
+			              </td>
+			            </tr>
+			            <tr style="height:110px;">
+			              <td>
+			              	<img class="pull-left" src="Images/Quran.jpg" style="width:80px !important; height:80px !important;">
+			              </td>
+			              <td>
+			              	<h6><strong><a href="methodstowardoff(islam).html#">Islam</a></strong></h6>
+			              	<small>According to Islamic teachings, there is no such thing as Ghosts. </small>
+			              </td>
+			            </tr>
+			          </tbody>
+			        </table>
+                </div>
+              </div>
+            </div>
+
 		   </div>
+
            <div class="row">
             <div class="col-lg-12">
               <h4><strong>Announcement</strong></h4>
@@ -318,43 +419,14 @@
         <div class="row">
           <div class="col-lg-12">
           	<div class="row">
-          		<div class="col-lg-4">
+          		<div class="col-lg-10">
 	          		<small>
 		          		<p>Supernatural is a fictional website for school project.</p>
 						<p>Copyright &copy; 2007-2013 Supernatural Ltd</p>
 						<p><i>Web Designed with all the love in the world by <strong>Kang Fei, Fuhchang, Chestie, Dominic, Kok Wee.</strong></i></p>
 					</small>
           		</div>
-          		<div class="col-lg-2">
-          			<small>
-						<p><strong>Site Map</strong></p>
-						<ul class="list-unstyled">
-							<li>One</li>
-							<li>Two</li>
-							<li>Three</li>
-						</ul>
-	          		</small>
-          		</div>
-          		<div class="col-lg-2">
-          			<small>
-						<p><strong>Site Map</strong></p>
-						<ul class="list-unstyled">
-							<li>One</li>
-							<li>Two</li>
-							<li>Three</li>
-						</ul>
-	          		</small>
-          		</div>
-          		<div class="col-lg-2">
-          			<small>
-						<p><strong>Site Map</strong></p>
-						<ul class="list-unstyled">
-							<li>One</li>
-							<li>Two</li>
-							<li>Three</li>
-						</ul>
-	          		</small>
-          		</div>
+          		
           		<div class="col-lg-2">
           			<p><strong><small>Follow & Subscribe Us!<small></strong></p>
           			<i class="fa fa-facebook-square fa-3x"></i>&nbsp;

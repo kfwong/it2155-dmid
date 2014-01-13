@@ -1,0 +1,355 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <title>Gadgets</title>
+
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+ <style>
+  	body{
+  		background-image: url('img/background.jpg');
+  	}
+
+	.slide-image {
+	  width: 100%;
+	}
+
+	td{
+		border: none !important;
+	}
+
+	.container{
+		background-color: #fff;
+	}
+
+	.navbar, .navbar .container{
+		background-image: url('img/background.png');
+	}
+
+	#content {
+	  padding-top: 30px;
+	  background-color: rgb(255,255,255);
+	  border-left-width: 3px;
+	}
+
+	.carousel-control,.item {
+	  border-radius: 4px;
+	}
+
+	.caption h4 {
+	  white-space: nowrap;
+	}
+
+	.thumbnail img {
+	 	width: 100%;
+	}
+
+	.thumbnail td{
+		border:none;
+	}
+
+	.ratings {
+	  color: #d17581;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}
+
+	.thumbnail {
+	  padding: 30px 0;
+	  border:none;
+	}
+
+	.thumbnail .caption-full {
+	  padding: 9px;
+	  color: #333;
+	}
+
+	footer {
+	  margin: 50px 0;
+	}
+  </style>
+</head>
+
+<body>
+ 	 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">Start Bootstrap</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Intrigue</a></li>
+            <li><a href="#">Supernatural</a></li>
+            <li><a href="#">Places</a></li>
+            <li><a href="#">Perspective</a></li>
+            <li><a href="#">How To</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <div class="input-group" style="padding:10px;width:300px;float:right;">
+			  <input type="text" class="form-control">
+			  <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+		  	</div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+	    <ol class="breadcrumb">
+		  <li><a href="#">Home</a></li>
+		  <li><a href="#">Library</a></li>
+		  <li class="active">Data</li>
+		</ol>
+
+      <div class="row">
+
+        <div class="col-md-12">
+        <!--CHANGE FROM HERE-->		
+			<h1>Gadgets</h1>
+			<p>This are top 3 scientific gadgets mostly used by the ghosthunters.</p>
+			<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> 
+          Geiger Counter
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+       <div class="media">
+		  <a class="pull-left" href="Images/geiger_counter.jpg">
+			<img class="media-object" src="Images/geiger_counter.jpg" alt="Geiger Counter" width = "150" height = "120">
+		  </a>
+		  <div class="media-body">
+			<h4 class="media-heading">Geiger Counter</h4>
+			<p>A Geiger–Müller counter, also called a Geiger counter, is a type of particle detector that measures ionizing radiation. 
+			It detects the emission of nuclear radiation alpha particles, beta particles, and gamma rays by the ionization produced in a low-pressure gas in a Geiger–Müller tube, which gives its name to the instrument.</p>
+			<p>The original operating principle was discovered in 1908 in early radiation research.
+			Since the subsequent development of the Geiger-Müller tube in 1928 the Geiger-Müller counter has been a popular instrument for use in radiation dosimetry, 
+			health physics, experimental physics, the nuclear industry, geological exploration and other fields, due to its robust sensing element and relatively low cost. 
+			However there are limitations in measuring high radiation rates and in measuring the energy of incident radiation.</p>
+			<br/>
+			<h4>Types of detection</h4>
+			<hr>
+			<h5><b>Particles detection</h5></b>
+			<p>The first historical uses of the Geiger principle were for the detection of alpha and beta particles, and the instrument is still used for this purpose today. 
+			For alpha particles and low energy beta particles the "end-window" type of G-M tube has to be used as these particles have a limited range even in free air, and are easily stopped by a solid material. 
+			The tube window is thin enough to allow these particles through with minimal attenuation, and normally has a density of about 1.5 - 2.0 mg/cm2. 
+			Alpha particles have the shortest range, and for their detection the window should ideally be within 10mm of the radiation source due to the particle attenuation in free air. 
+			However, the G-M tube produces a pulse output which is the same magnitude for all detected radiation, so a Geiger counter with an end window tube cannot distinguish between alpha and beta particles.
+			A skilled operator can use distance to differentiate alpha and high energy beta, but with the detector in close contact with the radiation source the types are indistinguishable. 
+			The "pancake" Geiger-Muller detector is a variant of the end window probe, but designed with a larger detection area</p>
+			<br/>
+			<h5><b>Gamma & X-ray detection</b></h5>
+			<p>Geiger counters are widely used to detect gamma radiation, and for this the windowless tube is used. However, efficiency is generally low due to the low interaction of gamma compared with alpha and beta particles. 
+			For instance, a chrome steel G-M tube is only about 1% efficient over a wide range of energies.</p>
+			<p>The article on the Geiger-Muller tube carries a more detailed account of the techniques used to detect photon radiation. 
+			But in summary, for high energy gamma this largely relies on interaction of the photon radiation with the tube wall material, usually 1–2 mm of chrome steel on a "thick-walled" tube, to produce electrons within the wall which can enter and ionize the fill gas. 
+			This is necessary as the low pressure gas in the tube has little interaction with high energy gamma photons. 
+			However, for low energy photons there is greater gas interaction and the direct gas ionisation effect increases. 
+			With decreasing energy the wall effect gives way to a combination of wall effect and direct ionisation, until direct gas ionisation dominates. 
+			Due to the variance in response to different photon energies, thick walled steel tubes employ what is known as "energy compensation" which attempts to compensate for these variations over a large energy range.</p>
+			<br/>
+			<h5><b>Video</b></h5>
+			<hr>
+			<div class ="row">
+				<div class = "col-sm-5 col-md-4">
+					<div class = "thumbnail">
+					<iframe width="293" height="260" src="http://www.youtube.com/embed/s9PZNJ970M8" frameborder="0" allowfullscreen>
+					</iframe>
+					<div class = "caption">
+						<h3>The Geiger Counter</h3>
+						<p>All about the geiger counter</p>
+					</div>
+					</div>	
+				</div>	
+				<div class = "col-sm-5 col-md-4">
+					<div class = "thumbnail">
+					<iframe width="293" height="260" src="http://www.youtube.com/embed/rIDNUoVsHe8" frameborder="0" allowfullscreen></iframe>
+					<div class = "caption">
+						<h3>How to make a simple geiger counter </h3>
+						<p>This is how to make your own homemade geiger counter for under $10 that will work for almost any form of radiation. 
+						In this video I test the geiger counter with a homemade X-ray tube powered by one of the worlds largest Wimshurst machines.</p>
+					</div>
+					</div>	
+				</div>	
+				<div class = "col-sm-5 col-md-4">
+					<div class = "thumbnail">
+					<iframe width="293" height="260" src="http://www.youtube.com/embed/u7QYJKnagas" frameborder="0" allowfullscreen></iframe>
+					<div class = "caption">
+						<h3>How to use a Geiger Counter</h3>
+						<p>How to operate a geiger counter.</p>
+					</div>
+					</div>	
+				</div>	
+			</div>	
+		  </div>
+		</div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+           Electromagnetic Field (EMF) detectors
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+		  <div class="media">
+			 <a class="pull-left" href="Images/emf detector.jpg">
+			<img class="media-object" src="Images/emf detector.jpg" alt="Emf detector" width = "150" height = "120">
+		  </a>	  
+		   <div class="media-body">
+			<h4 class="media-heading"> Electromagnetic Field (EMF) detectors</h4>
+		   <p>The EMF detector measures electromagnetic fields and is one of the first tools we use in a paranormal investigation.  
+		   It is based on the theory that spirits are composed of a type of energy that, when present, can manipulate the Earth’s electromagnetic field. 
+		   The EMF detector can also measure free-floating EMF waves that are passing through a location.  
+		   “Free-floating” describes energy that is no longer connected to an energy source, but is still present in the atmosphere. 
+		   For instance, electrical outlets, which leak power into their surroundings, can discharge an energy burst that can be picked up by an EMF detector.</p>
+		   <h5><b>Videos</b></h5>
+		   <hr>
+		   <div class = "row">
+			<div class = "col-sm-5 col-md-4">
+				<div class = "thumbnail">
+				<iframe width="293" height="260" src="http://www.youtube.com/embed/8uYhvQMrkXY" frameborder="0" allowfullscreen></iframe>
+					<div class = "caption">
+					<h3>Know your EMF detector</h3>
+					<p>How well do you know the equipment you use for paranormal investigations? 
+					Here is a closer look at some of the more popular EMF meters and related devices being used in the field, as well as a demonstration of some things that can give you false readings. </p>
+					</div>
+				</div>
+			</div>
+		   </div>
+		  </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          Thermographic camera
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+       <div class="media">
+		 <a class="pull-left" href="Images/Thermographic camera.jpg">
+			<img class="media-object" src="Images/Thermographic camera.jpg" alt="Thermographic camera" width = "150" height = "120">
+		  </a>
+			 <div class="media-body">
+				 <h4 class="media-heading"> Thermographic camera</h4>
+					<p>A thermographic camera or infrared camera is a device that forms an image using infrared radiation, similar to a common camera that forms an image using visible light. 
+					Instead of the 450–750 nanometer range of the visible light camera, infrared cameras operate in wavelengths as long as 14,000 nm (14 µm)</p>
+					<br/>
+					<h4>Types of Thermographic camera</h4>
+					<hr>
+					<h5><b>Cooled infrared detector</b></h5>
+					<p>Cooled detectors are typically contained in a vacuum-sealed case or Dewar and cryogenically cooled. The cooling is necessary for the operation of the semiconductor materials used. 
+					Typical operating temperatures range from 4 K to just below room temperature, depending on the detector technology. 
+					Most modern cooled detectors operate in the 60 K to 100 K range, depending on type and performance level.</p>
+					<p>Without cooling, these sensors (which detect and convert light in much the same way as common digital cameras, but are made of different materials) would be 'blinded' or flooded by their own radiation. 
+					The drawbacks of cooled infrared cameras are that they are expensive both to produce and to run. Cooling is power-hungry and time-consuming.</p>
+					<br/>
+					<h5><b>Uncooled inrared detector</b></h5>
+					<p>Uncooled thermal cameras use a sensor operating at ambient temperature, or a sensor stabilized at a temperature close to ambient using small temperature control elements. 
+					Modern uncooled detectors all use sensors that work by the change of resistance, voltage or current when heated by infrared radiation. 
+					These changes are then measured and compared to the values at the operating temperature of the sensor.</p>
+					<p>Uncooled infrared sensors can be stabilized to an operating temperature to reduce image noise, but they are not cooled to low temperatures and do not require bulky, expensive cryogenic coolers. 
+					This makes infrared cameras smaller and less costly. 
+					However, their resolution and image quality tend to be lower than cooled detectors. This is due to difference in their fabrication processes, limited by currently available technology.</p>
+					<br/>
+					<h5><b>Video</b></h5>
+					<hr/>
+					<div class = "row">
+						<div class = "col-sm-5 col-md-4">
+							<div class ="thumbnail">
+							<iframe width="293" height="260" src="http://www.youtube.com/embed/XFOHWaL7XsM" frameborder="0" allowfullscreen></iframe>
+						<div class = "caption">
+							<h3>Public Laboratory: Make an Infrared Camera</h3>
+							<p>We've been modifying cheap cameras to take near-infrared (IR) photos. 
+							Though we cannot perceive it with our eyes the plants and other materials around us reflect wavelengths of light in infrared. 
+							Interestingly the sensors in digital camera can react to wavelengths of light in the near infrared. 
+							Presently IR light is filtered out from our cameras so that digital images look normal to us. 
+							Removing that filter allows us to pick up information in IR. </p>
+						</div>
+						</div>
+					   </div>
+					   <div class = "col-sm-5 col-md-4">
+							<div class ="thumbnail">
+							<iframe width="293" height="260" src="http://www.youtube.com/embed/jX0gIWU49iI" frameborder="0" allowfullscreen></iframe>
+						<div class = "caption">
+							<h3>How infrared imaging camera work</h3>
+							<p>Infrared light or thermography is the use of an infrared imaging and measurement camera to "see" and "measure" thermal energy emitted from an object. 
+							Thermal, or infrared energy, is light that is not visible because its wavelength is too long to be detected by the human eye; it's the part of the electromagnetic spectrum that we perceive as heat. 
+							Unlike visible light, in the infrared world, everything with a temperature above absolute zero emits heat. Even very cold objects, like ice cubes, emit infrared.</p>
+						</div>
+						</div>
+					   </div>
+				    </div>
+			 </div>	 
+	   </div>
+      </div>
+    </div>
+  </div>
+</div>
+		</div>
+        </div>
+        <!--END HERE-->
+      </div>
+
+    </div><!-- /.container -->
+    
+    <div class="container">
+
+      <hr>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+          	<div class="row">
+          		<div class="col-lg-10">
+	          		<small>
+		          		<p>Supernatural is a fictional website for school project.</p>
+						<p>Copyright &copy; 2007-2013 Supernatural Ltd</p>
+						<p><i>Web Designed with all the love in the world by <strong>Kang Fei, Fuhchang, Chestie, Dominic, Kok Wee.</strong></i></p>
+					</small>
+          		</div>
+          		
+          		<div class="col-lg-2">
+          			<p><strong><small>Follow & Subscribe Us!<small></strong></p>
+          			<i class="fa fa-facebook-square fa-3x"></i>&nbsp;
+          			<i class="fa fa-google-plus-square fa-3x"></i>&nbsp;
+          			<i class="fa fa-twitter-square fa-3x"></i>&nbsp;
+          			<i class="fa fa-pinterest-square fa-3x"></i>&nbsp;
+          			<i class="fa fa-tumblr-square fa-3x"></i>&nbsp;
+          		</div>
+          	</div>
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

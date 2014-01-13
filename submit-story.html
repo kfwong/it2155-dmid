@@ -1,0 +1,268 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <title>The HTML5 Herald</title>
+
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+  <style>
+	.slide-image {
+	  width: 100%;
+	}
+
+      body{
+      background-image: url('img/background.jpg');
+    }
+    td{
+    border: none !important;
+  }
+
+      .container{
+    background-color: #fff;
+  }
+
+    .navbar, .navbar .container{
+    background-image: url('img/background.png');
+  }
+
+	.caption h4 {
+	  white-space: nowrap;
+	}
+
+	.thumbnail img {
+	  width: 100%;
+	}
+
+	.ratings {
+	  color: #d17581;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}
+
+  .thumbnail td{
+    border:none;
+  }
+
+	.thumbnail {
+	  padding: 0;
+    border:none;
+	}
+
+	.thumbnail .caption-full {
+	  padding: 9px;
+	  color: #333;
+	}
+
+	footer {
+	  margin: 50px 0;
+	}
+  </style>
+</head>
+
+<body>
+ 	 <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom:0px;">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">Supernatural</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Intrigue</a></li>
+            <li><a href="#">Supernatural</a></li>
+            <li><a href="#">Places</a></li>
+            <li><a href="#">Perspective</a></li>
+            <li><a href="#">How To</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <div class="input-group" style="padding:10px;width:300px;float:right;">
+			  <input type="text" class="form-control">
+			  <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+		  	</div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+    <!--
+    	<div class="page-header">
+		  <h1>Example page header <small>Subtext for header</small></h1>
+		</div>
+
+	    <ol class="breadcrumb">
+		  <li><a href="#">Home</a></li>
+		  <li><a href="#">Library</a></li>
+		  <li class="active">Data</li>
+		</ol>
+	-->
+      <div class="row">
+
+        <div class="col-md-12">
+        <!--CHANGE FROM HERE-->
+
+          <div class="page-header">
+    			  <h1>Submit Story <small>Share with us your experience!</small></h1>
+    			</div>
+          <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>Intrigue</li>
+            <li>Story Submission</li>
+          </ol>
+
+    			<form>
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="form-group">
+                  <input class="form-control"  placeholder="Enter title">
+                </div>
+                <textarea id="editor" name="content" style="width:100%"></textarea>
+              </div>
+              <div class="col-lg-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Submission</h3>
+                  </div>
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label>Your name</label>
+                      <input class="form-control"  placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                      <label>Your email</label>
+                      <input class="form-control"  placeholder="Enter email">
+                    </div>
+                    <div class="pull-right">
+                      <input type="submit" class="btn btn-primary" value="Submit"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="thumbnail">
+                <div class="caption" style="padding:0px;">
+                  <div style="padding:5px;">
+                      <h4><span class=" glyphicon glyphicon-eye-open" style="color:gray;"></span>&nbsp;<a href="story-multiple.html">Stories that might inspire you</a></h4>
+                  </div>
+                  <table class="table table-condensed" style="margin-bottom:auto !important;">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img class="pull-left" src="img/img1.jpg" style="width:auto !important;">
+                        </td>
+                        <td>
+                          <h6><strong><a href="story-single.html">Terrifying Monster Attacks</a></strong></h6>
+                          <small>50 Berkeley Square is the most haunted house in London. This infamous home is supposedly full of spirits.</small>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img class="pull-left" src="img/img2.jpg" style="width:auto !important;">
+                        </td>
+                        <td>
+                          <h6><strong><a href="story-single.html">Haunted Areas of the Whitehouse</a></strong></h6>
+                          <small>What few people may realize, though, is that the White House is perhaps one of the most haunted places in the United States.</small>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img class="pull-left" src="img/img3.jpg" style="width:auto !important;">
+                        </td>
+                        <td>
+                          <h6><strong><a href="story-single.html">Museums that will Scare You Silly</a></strong></h6>
+                          <small>Originally designed to house a collection of basically anything, the House on the Rock in Deer Shelter Rock first opened in 1959. </small>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              </div>
+            </div>
+          </form>
+        <!--END HERE-->
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+    
+    <div class="container">
+
+    	<hr/>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-4">
+                <small>
+                  <p>Supernatural is a fictional website for school project.</p>
+            <p>Copyright &copy; 2007-2013 Supernatural Ltd</p>
+            <p><i>Web Designed with all the love in the world by <strong>Kang Fei, Fuhchang, Chestie, Dominic, Kok Wee.</strong></i></p>
+          </small>
+              </div>
+              <div class="col-lg-2">
+                <small>
+            <p><strong>Site Map</strong></p>
+            <ul class="list-unstyled">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+                </small>
+              </div>
+              <div class="col-lg-2">
+                <small>
+            <p><strong>Site Map</strong></p>
+            <ul class="list-unstyled">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+                </small>
+              </div>
+              <div class="col-lg-2">
+                <small>
+            <p><strong>Site Map</strong></p>
+            <ul class="list-unstyled">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+                </small>
+              </div>
+              <div class="col-lg-2">
+                <p><strong><small>Follow & Subscribe Us!<small></strong></p>
+                <i class="fa fa-facebook-square fa-3x"></i>&nbsp;
+                <i class="fa fa-google-plus-square fa-3x"></i>&nbsp;
+                <i class="fa fa-twitter-square fa-3x"></i>&nbsp;
+                <i class="fa fa-pinterest-square fa-3x"></i>&nbsp;
+                <i class="fa fa-tumblr-square fa-3x"></i>&nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.0.1/ckeditor.js"></script>
+    <script>
+    CKEDITOR.replace( 'editor',
+      {
+        height: '500px'
+      }
+    );
+    </script>
+</body>
+</html>

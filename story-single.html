@@ -1,0 +1,445 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <title>The HTML5 Herald</title>
+
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+  <style>
+  .slide-image {
+    width: 100%;
+  }
+
+      body{
+      background-image: url('img/background.jpg');
+    }
+    td{
+    border: none !important;
+  }
+
+      .container{
+    background-color: #fff;
+  }
+
+    .navbar, .navbar .container{
+    background-image: url('img/background.png');
+  }
+
+  .caption h4 {
+    white-space: nowrap;
+  }
+
+  .thumbnail img {
+    width: 100%;
+  }
+
+  .ratings {
+    color: #d17581;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .thumbnail td{
+    border:none;
+  }
+
+  .thumbnail {
+    padding: 0;
+    border:none;
+  }
+
+  .thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+  }
+
+  footer {
+    margin: 50px 0;
+  }
+  </style>
+</head>
+
+<body>
+ 	 <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom:0px;">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">Supernatural</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Intrigue</a></li>
+            <li><a href="#">Supernatural</a></li>
+            <li><a href="#">Places</a></li>
+            <li><a href="#">Perspective</a></li>
+            <li><a href="#">How To</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <div class="input-group" style="padding:10px;width:300px;float:right;">
+			  <input type="text" class="form-control">
+			  <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+		  	</div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+    <!--
+    	<div class="page-header">
+		  <h1>Example page header <small>Subtext for header</small></h1>
+		</div>
+
+	    <ol class="breadcrumb">
+		  <li><a href="#">Home</a></li>
+		  <li><a href="#">Library</a></li>
+		  <li class="active">Data</li>
+		</ol>
+	-->
+      <div class="row">
+
+        <div class="col-md-12">
+        <!--CHANGE FROM HERE-->
+
+          <div class="page-header">
+    			  <h1>Creepy Historical Vampires You've Never Heard Of</h1>
+    			</div>
+          <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>Intrigue</li>
+            <li>Creepy Historical Vampires You've Never Heard Of</li>
+          </ol>
+
+    			<form>
+            <div class="row">
+              <div class="col-lg-8">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  </ol>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active carousel">
+                      <img src="img/content1.jpg">
+                      <div class="carousel-caption">
+                        <h3>Peter Plogojowitz</h3>
+                        <p>Peter Plogojowitz was a man from 1700s Serbia who died (don’t we all?). Except—according to some—he didn’t really stay dead. </p>
+                      </div>
+                    </div>
+                    <div class="item carousel">
+                      <img src="img/content2.jpg">
+                      <div class="carousel-caption">
+                        <h3>The Alnwick Castle Vampire</h3>
+                        <p>The Alnwick Castle vampire actually predates the term “vampire.” The events were recorded by an English chronicler named William of Newburgh.</p>
+                      </div>
+                    </div>
+                    <div class="item carousel">
+                      <img src="img/content3.jpg">
+                      <div class="carousel-caption">
+                        <h3>The Vampire Of Croglin Grange</h3>
+                        <p>TLady Cranwell noticed strange lights in the garden below, but thought nothing of it until she woke to find the lights at her window - but they weren't lights.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                <br/>
+
+                <p>When people think of vampires, they usually think of famous fictional bloodsuckers like Dracula or his historical counterpart, Vlad the Impaler. Perhaps younger people will think of True Blood, The Lost Boys or the sparkly vampires of Twilight. But there have been plenty of vampire tales that stemmed from real events or people, like...</p>
+                <br/>
+
+                <h4><strong>Peter Plogojowitz</strong></h4>
+                <img class="pull-right" src="img/content4.jpg" style="margin:10px;"/>
+                <p>Peter Plogojowitz was a man from 1700s Serbia who died (don't we all?). Except - according to some - he didn't really stay dead. Within 10 weeks of his death, nine people died suddenly from a mystery illness, and prior to their deaths they all accused Peter Plogojowitz of throttling them in their dreams. Peter's own son reported seeing him in the kitchen three days after his death, demanding food—before he also died mysteriously. Peter's wife fled town after she alleged he'd shown up late one night to demand a pair of shoes.</p>
+                <br/>
+
+                <p>The army was called in, and Peter's body was exhumed. It was reported that he was breathing and that his open eyes were moving. A stake was put through his heart, resulting in a Tarantino-esque gushing of blood, and his body burned. The deaths and dreams all ended abruptly.</p>
+                <br/>
+
+                <h4><strong>The Alnwick Castle Vampire</strong></h4>
+                <img class="pull-right" src="img/content5.jpg" style="margin:10px;"/>
+                <p>The Alnwick Castle vampire actually predates the term "vampire". The events were recorded by an English chronicler named William of Newburgh. He reported the story of a man who returned from the dead after he died while spying on his cheating wife-he was crouched on the roof and fell. He then returned as a revenant-a walking, rotting corpse-spreading plague in his wake. </p>
+
+                <p>Eventually, a priest gathered some of his parishioners and found the vampire's grave. They opened it and stabbed the corpse with a shovel. Warm blood ran from the body and confirmed their suspicions that it had been drinking the blood of the living (remember this was almost 800 years before Bram Stoker's Dracula). They burned the body, and the attacks ceased.</p>
+                <br/>
+
+                <h4><strong>The Vampire Of Croglin Grange</strong></h4>
+                <img class="pull-right" src="img/content6.jpg" style="margin:10px;"/>
+                <p>This event began in the 1800s when the Cranwell Family took up residence in Groglin Range in Cumbria. Lady Cranwell noticed strange lights in the garden below, but thought nothing of it until she woke to find the lights at her window-but they weren't lights. They were eyes. </p>
+
+                <p>Lady Cranwell was frozen in terror as she saw the thing outside her window remove the panes one by one before reaching a rotten hand through and opening the latch. Her brothers heard her screaming and ran in to help her, arriving just in time to see her bleeding profusely from the neck as a catlike figure darted out into the darkness.</p>
+
+                <p>The brothers decided to slay the vampire. Some time later, they returned to the estate and set a trap. Lady Cranwell pretended to sleep in the same room the original attack happened in. When the vampire tried to come through the window again, the brothers jumped out with pistols and shot at it. It screamed and ran off into the night. The next day, the brothers gathered an angry mob and searched the graveyard until they found an open crypt. Inside were gnawed bones and an open coffin containing a rotten corpse with a recent bullet wound. Needless to say, they burned it.</p>
+                <br/>
+
+                <h5><strong>About Author</strong></h5>
+                <p>Aaron has written a few articles for Listverse and Cracked.com. He also has a blog (where he mostly rambles about about bad movies) here.</p>
+
+                <div class="page-header">
+                  <h2>Comments</h2>
+                </div>
+                <ul class="media-list">
+                  <li class="media">
+                    <a class="pull-left" href="#">
+                      <img class="pull-left" src="img/avatar1.jpg" style="width:auto !important;margin:10px;">
+                    </a>
+                    <div class="media-body">
+                      <p>I think EVERYONE has heard of Bathory.</p>
+                      <button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;<small>Like</small></button>
+                      <button class="btn btn-default btn-xs"><i class="fa fa-reply"></i>&nbsp;<small>Reply</small></button>
+
+                      <div class="media">
+                        <a class="pull-left" href="#">
+                          <img class="pull-left" src="img/avatar2.jpg" style="width:auto !important;margin:10px;">
+                        </a>
+                        <div class="media-body">
+                          <p>Yeah only she was Hungarian, not Romanian. Vlad Dracul / The Impaler was Romanian. And well, the two countries are neighbors and constantly bickering with each other over territory and language, so I can see why the mistake was made.</p>
+                          <button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;<small>Like</small></button>
+                          <button class="btn btn-default btn-xs"><i class="fa fa-reply"></i>&nbsp;<small>Reply</small></button>
+                        </div>
+                      </div>
+                      <div class="media">
+                        <a class="pull-left" href="#">
+                          <img class="pull-left" src="img/avatar1.jpg" style="width:auto !important;margin:10px;">
+                        </a>
+                        <div class="media-body">
+                          <p>Here is a creature for you: in European folklore there is a half Dragon half vampire. Don't want to know how that was made…</p>
+                          <button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;<small>Like</small></button>
+                          <button class="btn btn-default btn-xs"><i class="fa fa-reply"></i>&nbsp;<small>Reply</small></button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="media">
+                    <a class="pull-left" href="#">
+                      <img class="pull-left" src="img/avatar3.jpg" style="width:auto !important;margin:10px;">
+                    </a>
+                    <div class="media-body">
+                      <p>Could this possibly beat the creepy Squidward thumbnail for the creepiest picture of the homepage?</p>
+                      <button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;<small>Like</small></button>
+                      <button class="btn btn-default btn-xs"><i class="fa fa-reply"></i>&nbsp;<small>Reply</small></button>
+                    </div>
+                  </li>
+                  <li class="media">
+                    <a class="pull-left" href="#">
+                      <img class="pull-left" src="img/avatar4.jpg" style="width:auto !important;margin:10px;">
+                    </a>
+                    <div class="media-body">
+                      <p>If you don't know who Elizabeth Bathory is, you've been living under a rock your whole life. Plenty of movies featuring her (Stay Alive) or someone inspired by her (like in Hostel 2).</p>
+                      <button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;<small>Like</small></button>
+                      <button class="btn btn-default btn-xs"><i class="fa fa-reply"></i>&nbsp;<small>Reply</small></button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Ratings</h3>
+                  </div>
+                  <div class="panel-body">
+                    <h4>
+                      <span>Creepiness</span>&nbsp;
+                      <i class="glyphicon glyphicon-star"></i>
+                      <i class="glyphicon glyphicon-star"></i>
+                      <i class="glyphicon glyphicon-star"></i>
+                      <i class="glyphicon glyphicon-star"></i>
+                      <i class="glyphicon glyphicon-star-empty"></i>
+                    </h4>
+                    <h4>
+                      <span>Freshness</span>&nbsp;
+                      <i class="glyphicon glyphicon-star"></i>
+                      <i class="glyphicon glyphicon-star"></i>
+                      <i class="glyphicon glyphicon-star"></i>
+                      <i class="glyphicon glyphicon-star-empty"></i>
+                      <i class="glyphicon glyphicon-star-empty"></i>
+                    </h4>
+                    <h4>
+                      <span>Excitement</span>&nbsp;
+                      <i class="glyphicon glyphicon-star"></i>
+                      <i class="glyphicon glyphicon-star"></i>
+                      <i class="glyphicon glyphicon-star"></i>
+                      <i class="glyphicon glyphicon-star"></i>
+                      <i class="glyphicon glyphicon-star-empty"></i>
+                    </h4>
+                  </div>
+                </div>
+                <div class="thumbnail">
+                <div class="caption" style="padding:0px;">
+                  <div style="padding:5px;">
+                      <h4><span class=" glyphicon glyphicon-eye-open" style="color:gray;"></span>&nbsp;<a href="story-multiple.html">Stories that you might be interested</a></h4>
+                  </div>
+                  <table class="table table-condensed" style="margin-bottom:auto !important;">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img class="pull-left" src="img/img2.jpg" style="width:auto !important;">
+                        </td>
+                        <td>
+                          <h6><strong><a href="story-single.html">Haunted Areas of the Whitehouse</a></strong></h6>
+                          <small>What few people may realize, though, is that the White House is perhaps one of the most haunted places in the United States.</small>
+                          <br/>
+                          <br/>
+                          <small class="pull-right" style="color:gray;"><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img class="pull-left" src="img/img3.jpg" style="width:auto !important;">
+                        </td>
+                        <td>
+                          <h6><strong><a href="story-single.html">Museums that will Scare You Silly</a></strong></h6>
+                          <small>Originally designed to house a collection of basically anything, the House on the Rock in Deer Shelter Rock first opened in 1959. </small>
+                          <br/>
+                          <br/>
+                          <small class="pull-right" style="color:gray;"><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img class="pull-left" src="img/img1.jpg" style="width:auto !important;">
+                        </td>
+                        <td>
+                          <h6><strong><a href="story-single.html">Terrifying Monster Attacks</a></strong></h6>
+                          <small>50 Berkeley Square is the most haunted house in London. This infamous home is supposedly full of spirits.</small>
+                          <br/>
+                          <br/>
+                          <small class="pull-right" style="color:gray;"><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img class="pull-left" src="img/img2.jpg" style="width:auto !important;">
+                        </td>
+                        <td>
+                          <h6><strong><a href="story-single.html">Haunted Areas of the Whitehouse</a></strong></h6>
+                          <small>What few people may realize, though, is that the White House is perhaps one of the most haunted places in the United States.</small>
+                          <br/>
+                          <br/>
+                          <small class="pull-right" style="color:gray;"><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img class="pull-left" src="img/img3.jpg" style="width:auto !important;">
+                        </td>
+                        <td>
+                          <h6><strong><a href="story-single.html">Museums that will Scare You Silly</a></strong></h6>
+                          <small>Originally designed to house a collection of basically anything, the House on the Rock in Deer Shelter Rock first opened in 1959. </small>
+                          <br/>
+                          <br/>
+                          <small class="pull-right" style="color:gray;"><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img class="pull-left" src="img/img1.jpg" style="width:auto !important;">
+                        </td>
+                        <td>
+                          <h6><strong><a href="story-single.html">Terrifying Monster Attacks</a></strong></h6>
+                          <small>50 Berkeley Square is the most haunted house in London. This infamous home is supposedly full of spirits.</small>
+                          <br/>
+                          <br/>
+                          <small class="pull-right" style="color:gray;"><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              </div>
+            </div>
+          </form>
+        <!--END HERE-->
+      </div>
+      </div>
+
+    </div><!-- /.container -->
+    
+    <div class="container">
+
+    	<hr/>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-4">
+                <small>
+                  <p>Supernatural is a fictional website for school project.</p>
+            <p>Copyright &copy; 2007-2013 Supernatural Ltd</p>
+            <p><i>Web Designed with all the love in the world by <strong>Kang Fei, Fuhchang, Chestie, Dominic, Kok Wee.</strong></i></p>
+          </small>
+              </div>
+              <div class="col-lg-2">
+                <small>
+            <p><strong>Site Map</strong></p>
+            <ul class="list-unstyled">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+                </small>
+              </div>
+              <div class="col-lg-2">
+                <small>
+            <p><strong>Site Map</strong></p>
+            <ul class="list-unstyled">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+                </small>
+              </div>
+              <div class="col-lg-2">
+                <small>
+            <p><strong>Site Map</strong></p>
+            <ul class="list-unstyled">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+                </small>
+              </div>
+              <div class="col-lg-2">
+                <p><strong><small>Follow & Subscribe Us!<small></strong></p>
+                <i class="fa fa-facebook-square fa-3x"></i>&nbsp;
+                <i class="fa fa-google-plus-square fa-3x"></i>&nbsp;
+                <i class="fa fa-twitter-square fa-3x"></i>&nbsp;
+                <i class="fa fa-pinterest-square fa-3x"></i>&nbsp;
+                <i class="fa fa-tumblr-square fa-3x"></i>&nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div><!-- /.container -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    </script>
+</body>
+</html>

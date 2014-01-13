@@ -1,0 +1,496 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <title>The HTML5 Herald</title>
+
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+  <style>
+        body{
+      background-image: url('img/background.jpg');
+    }
+    td{
+    border: none !important;
+  }
+
+  blockquote p{
+    font-size:small;
+  }
+
+      .container{
+    background-color: #fff;
+  }
+
+    .navbar, .navbar .container{
+    background-image: url('img/background.png');
+  }
+	.slide-image {
+	  width: 100%;
+	}
+
+	.carousel-holder {
+	  margin-bottom: 30px;
+	}
+
+	.carousel-control,.item {
+	  border-radius: 4px;
+	}
+
+	.caption h4 {
+	  white-space: nowrap;
+	}
+
+	.thumbnail img {
+	  width: 100%;
+	}
+
+	.ratings {
+	  color: #d17581;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}
+
+	.thumbnail {
+	  padding: 0;
+	}
+
+	.thumbnail .caption-full {
+	  padding: 9px;
+	  color: #333;
+	}
+
+	footer {
+	  margin: 50px 0;
+	}
+  </style>
+</head>
+
+<body>
+ 	 <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom:0px;">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">Supernatural</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Intrigue</a></li>
+            <li><a href="#">Supernatural</a></li>
+            <li><a href="#">Places</a></li>
+            <li><a href="#">Perspective</a></li>
+            <li><a href="#">How To</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <div class="input-group" style="padding:10px;width:300px;float:right;">
+			  <input type="text" class="form-control">
+			  <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+		  	</div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+    <!--
+    	<div class="page-header">
+		  <h1>Example page header <small>Subtext for header</small></h1>
+		</div>
+
+	    <ol class="breadcrumb">
+		  <li><a href="#">Home</a></li>
+		  <li><a href="#">Library</a></li>
+		  <li class="active">Data</li>
+		</ol>
+	-->
+      <div class="row">
+
+        <div class="col-md-12">
+        <!--CHANGE FROM HERE-->
+
+          <div class="page-header">
+    			  <h1>Stories</h1>
+    			</div>
+          <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>Intrigue</li>
+            <li>Stories</li>
+          </ol>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-8">
+                    <div class="col-lg-1">
+                      <label>&nbsp;Filter&nbsp;</label>
+                    </div>
+                    <div class="col-lg-3">
+                      <select class="form-control input-sm">
+                        <option>Ghosts</option>
+                        <option>Spirits</option>
+                        <option>Devils</option>
+                        <option>Mythology</option>
+                        <option>Gods</option>
+                      </select>
+                    </div>
+                  <div class="col-lg-1">
+                    <label>&nbsp;Sort&nbsp;</label>
+                  </div>
+                  <div class="col-lg-3">
+                    <select class="form-control input-sm">
+                      <option>Title</option>
+                      <option>Date Posted</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="col-lg-2">
+                    <label>&nbsp;Search&nbsp;</label>
+                  </div>
+                  <div class="col-lg-10">
+                    <input type="search" class="input-sm form-control"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr/>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img1.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Haunted Areas of the Whitehouse</a></strong></h6>
+                    <p>What few people may realize, though, is that the White House is perhaps one of the most haunted places in the United States.</p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img2.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Terrifying Monster Attacks</a></strong></h6>
+                    <p>50 Berkeley Square is the most haunted house in London. This infamous home is supposedly full of spirits.</p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img4.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Creepy Historical Vampires You've Never Heard Of</a></strong></h6>
+                    <p>There have been plenty of vampire tales that stemmed from real events or people.</p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img3.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Museums that will Scare You Silly</a></strong></h6>
+                    <p>Originally designed to house a collection of basically anything, the House on the Rock in Deer Shelter Rock first opened in 1959. </p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img5.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Creepy And Mysterious Phantom Vehicles</a></strong></h6>
+                    <p>Phantom vehicles are the ghost ships of the land (and, occasionally, air).</p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img6.png">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Terrifying Historic Medical Instruments</a></strong></h6>
+                    <p>It's easy for us to forget how bad even minor medical problems could be in the days when anesthesia was nonexistent. </p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img7.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Little-Known Mysterious Ghost Types</a></strong></h6>
+                    <p>Nowadays, ghosts and spirits are all the rage in popular culture.  </p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img8.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Eerie Places on Earth in Images</a></strong></h6>
+                    <p>Eerie places can be found all over the world; most of us probably live near one. </p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img1.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Haunted Areas of the Whitehouse</a></strong></h6>
+                    <p>What few people may realize, though, is that the White House is perhaps one of the most haunted places in the United States.</p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img2.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Terrifying Monster Attacks</a></strong></h6>
+                    <p>50 Berkeley Square is the most haunted house in London. This infamous home is supposedly full of spirits.</p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img4.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Creepy Historical Vampires You've Never Heard Of</a></strong></h6>
+                    <p>There have been plenty of vampire tales that stemmed from real events or people.</p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img3.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Museums that will Scare You Silly</a></strong></h6>
+                    <p>Originally designed to house a collection of basically anything, the House on the Rock in Deer Shelter Rock first opened in 1959. </p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img5.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Creepy And Mysterious Phantom Vehicles</a></strong></h6>
+                    <p>Phantom vehicles are the ghost ships of the land (and, occasionally, air).</p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img6.png">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Terrifying Historic Medical Instruments</a></strong></h6>
+                    <p>It's easy for us to forget how bad even minor medical problems could be in the days when anesthesia was nonexistent. </p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img7.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Little-Known Mysterious Ghost Types</a></strong></h6>
+                    <p>Nowadays, ghosts and spirits are all the rage in popular culture.  </p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="img/img8.jpg">
+                </a>
+                <div class="media-body">
+                  <blockquote>
+                    <h6><strong><a href="story-single.html">Eerie Places on Earth in Images</a></strong></h6>
+                    <p>Eerie places can be found all over the world; most of us probably live near one. </p>
+                    <small><span class="glyphicon glyphicon-calendar"></span> Thursday, 12 Nov 2013</small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="pagination pagination-sm pull-right">
+            <li><a href="#">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+          </ul>
+        <!--END HERE-->
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+    
+    <div class="container">
+
+    	<hr/>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-4">
+                <small>
+                  <p>Supernatural is a fictional website for school project.</p>
+            <p>Copyright &copy; 2007-2013 Supernatural Ltd</p>
+            <p><i>Web Designed with all the love in the world by <strong>Kang Fei, Fuhchang, Chestie, Dominic, Kok Wee.</strong></i></p>
+          </small>
+              </div>
+              <div class="col-lg-2">
+                <small>
+            <p><strong>Site Map</strong></p>
+            <ul class="list-unstyled">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+                </small>
+              </div>
+              <div class="col-lg-2">
+                <small>
+            <p><strong>Site Map</strong></p>
+            <ul class="list-unstyled">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+                </small>
+              </div>
+              <div class="col-lg-2">
+                <small>
+            <p><strong>Site Map</strong></p>
+            <ul class="list-unstyled">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+                </small>
+              </div>
+              <div class="col-lg-2">
+                <p><strong><small>Follow & Subscribe Us!<small></strong></p>
+                <i class="fa fa-facebook-square fa-3x"></i>&nbsp;
+                <i class="fa fa-google-plus-square fa-3x"></i>&nbsp;
+                <i class="fa fa-twitter-square fa-3x"></i>&nbsp;
+                <i class="fa fa-pinterest-square fa-3x"></i>&nbsp;
+                <i class="fa fa-tumblr-square fa-3x"></i>&nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    </script>
+</body>
+</html>
